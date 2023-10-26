@@ -1,54 +1,26 @@
+.Hero-section{
+    height: auto;
+   
 
-.sectors {
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 80px;
-    margin-left: 100px;
 }
-
+.hero h2{
+    text-align: center;
+    
+}
 .images{
     display: flex;
-    padding: 130px;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 200px;
+    padding: 0 70px;
 
 }
-
-.images h3 {
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 50px;
-    color: #7a7a7b;
-    text-align: center;
+.image{
+    display: grid;
+    place-items: center;
 }
 
-.project p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
-    text-align: center;
-}
 
-.denver p {
-    font-weight: 400;
-    font-size: 20px;
-
-}
-
-.archi p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
-    text-align: center;
-}
-
-.light p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
-    text-align: center;
-
-}
-
+/* 
 .trustee {
     font-weight: 500;
     font-size: 32px;
@@ -182,9 +154,14 @@
     justify-content: center;
     align-items: center;
 
+} */
+
+@media (max-width:768px) {
+    .images{
+        gap: 50px;
+    }
+   
 }
-
-
 
 
 

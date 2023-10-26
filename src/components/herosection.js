@@ -14,33 +14,33 @@ import Ten from "./img/ten.png";
 
 function Herosection(){
     return (
-      <div>
-        <div>
-          <h2 className="sectors">OUR SECTORS</h2>
+      <div className="Hero-section">
+        <div className="hero">
+          <h2 >OUR SECTORS</h2>
           <div className="images">
-            <div className="denver">
+            <div className="image">
               <h3>01</h3>
               <img src={Denver} />
               <p>Architectural designs and consult</p>
             </div>
-            <div className="project">
+            <div className="image">
               <h3>02</h3>
               <img src={Project} />
               <p>Construction</p>
             </div>
-            <div className="archi">
+            <div className="image">
               <h3>03</h3>
               <img src={Architecture} />
               <p>Project management</p>
             </div>
-            <div className="light">
+            <div className="image">
               <h3>04</h3>
               <img src={Light} />
               <p>Interior Design</p>
             </div>
           </div>
         </div>
-        <div className="company">
+        {/* <div className="company">
           <h2 className="trustee">TRUSTED BY OVER 200+ COMPANIES</h2>
           <div className="companies">
             <img src={Pipedrive} />
@@ -83,8 +83,8 @@ function Herosection(){
               </span>
             </h3>
             <button className="build">build with us</button>
-          </div>
-        </div>
+          </div> 
+        {/* </div> */}
       </div>
     );
 }

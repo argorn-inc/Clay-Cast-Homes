@@ -24,6 +24,7 @@
 .nav-element{
     list-style: none;
     display: flex;
+    
 }
 .nav-items{
     cursor: pointer;
@@ -126,5 +127,13 @@
     .texts{
         left: 0;
     }
+    .dream{
+        font-size: 20px;
+    }
+    .vision{
+      font-size: 20px;
+
+    }
 }
+
 
