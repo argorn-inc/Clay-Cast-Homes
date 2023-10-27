@@ -16,7 +16,7 @@ function Herosection(){
     return (
       <div className="Hero-section">
         <div className="hero">
-          <h2 >OUR SECTORS</h2>
+          <h2>OUR SECTORS</h2>
           <div className="images">
             <div className="image">
               <h3>01</h3>
@@ -40,7 +40,7 @@ function Herosection(){
             </div>
           </div>
         </div>
-        {/* <div className="company">
+        <div className="company">
           <h2 className="trustee">TRUSTED BY OVER 200+ COMPANIES</h2>
           <div className="companies">
             <img src={Pipedrive} />
@@ -52,7 +52,7 @@ function Herosection(){
           </div>
         </div>
         <div className="hero-section">
-          <img src={Rectangle} className="rectangle" />
+          {/* <img src={Rectangle} className="rectangle" /> */}
           <div className="upper">
             <img src={Ten} className="ten" />
             <h1 className="success">
@@ -61,30 +61,30 @@ function Herosection(){
             </h1>
           </div>
           <div className="numbers">
-            <div>
-              <h2 className="seventy-two">72</h2>
+            <div className="seventy">
+              <h2  className="nums">72</h2>
               <p className="paragraph">Projects Completed</p>
             </div>
             <div className="seventy">
-              <h2 className="square">130</h2>
+              <h2  className="nums">130</h2>
               <p className="paragraph">Square Feet</p>
             </div>
             <div className="seventy">
-              <h2 className="client">35</h2>
+              <h2 className="nums" >35</h2>
               <p className="paragraph">Clients Nationwide</p>
             </div>
           </div>
-          <div>
-            <h3 className="explore">
+          <div className="explore">
+            <h3>
               To explore and go after new ways to build, we’ve gathered the
               people, innovations, and partnerships <br />
-              <span style={{ marginLeft: 170 }}>
+              <span>
                 that can anticipate and overcome new challenges
               </span>
             </h3>
             <button className="build">build with us</button>
-          </div> 
-        {/* </div> */}
+          </div>
+        </div>
       </div>
     );
 }
