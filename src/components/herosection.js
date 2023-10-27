@@ -43,12 +43,12 @@ function Herosection(){
         <div className="company">
           <h2 className="trustee">TRUSTED BY OVER 200+ COMPANIES</h2>
           <div className="companies">
-            <img src={Pipedrive} />
-            <img src={Razorpay} />
-            <img src={Rippling} />
-            <img src={Attentive} />
-            <img src={Sonos} />
-            <img src={Ghost} />
+            <img src={Pipedrive} className="comp" />
+            <img src={Razorpay} className="comp" />
+            <img src={Rippling} className="comp" />
+            <img src={Attentive} className="comp" />
+            <img src={Sonos} className="sonos" />
+            <img src={Ghost} className="ghost" />
           </div>
         </div>
         <div className="hero-section">
@@ -62,15 +62,15 @@ function Herosection(){
           </div>
           <div className="numbers">
             <div className="seventy">
-              <h2  className="nums">72</h2>
+              <h2 className="nums">72</h2>
               <p className="paragraph">Projects Completed</p>
             </div>
             <div className="seventy">
-              <h2  className="nums">130</h2>
+              <h2 className="nums">130</h2>
               <p className="paragraph">Square Feet</p>
             </div>
             <div className="seventy">
-              <h2 className="nums" >35</h2>
+              <h2 className="nums">35</h2>
               <p className="paragraph">Clients Nationwide</p>
             </div>
           </div>
@@ -78,9 +78,7 @@ function Herosection(){
             <h3>
               To explore and go after new ways to build, we’ve gathered the
               people, innovations, and partnerships <br />
-              <span>
-                that can anticipate and overcome new challenges
-              </span>
+              <span>that can anticipate and overcome new challenges</span>
             </h3>
             <button className="build">build with us</button>
           </div>

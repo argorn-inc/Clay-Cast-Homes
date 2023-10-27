@@ -31,7 +31,7 @@
 .companies {
     display: flex;
     padding: 20px;
-    gap: 120px;
+    gap: 80px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -68,6 +68,7 @@
     display: flex;
     gap: 350px;
     flex-wrap: wrap;
+    padding: 0 90px;
    
 }
 .numbers .seventy{
@@ -128,7 +129,8 @@
 
     }
     .numbers{
-        gap: 35px;
+        gap: 50px;
+    
 
     }
     .explore{
@@ -136,8 +138,8 @@
         text-wrap: balance;
     }
     .hero h2{
-        font-size: 12px;
-
+        font-size: 16px;
+    
     }
     .trustee{
         font-size: 16px;
@@ -146,7 +148,36 @@
         width: 180px;
     }
    .success{
-    font-size: 16px;
+    font-size: 20px;
+    margin-top: 50px;
+   }
+   .comp{
+    width: 110px;
+   }
+   .sonos{
+    width: 67px;
+    margin-right: 70px;
+   }
+   .ghost{
+    width: 70px;   
+      
+   }
+   .numbers{
+    margin-top: -58px;
+    gap: 50px;
+   }
+   .seventy h2{
+    font-size: 130px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .explore{
+    margin-top: -58px;
    }
   
 }
