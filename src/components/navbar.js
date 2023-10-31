@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars,faTimes } from "@fortawesome/free-solid-svg-icons";
 
 import Logo from "./img/logo.png";
-import Home from "./img/Home.png";
 import { useState } from 'react';
 
 function Navbar() {
@@ -16,13 +15,17 @@ const openNav =()=>{
       <nav className={`navbar ${open ? "active" : ""}`}>
         <div className="navTop">
           <img className="logo" src={Logo} />
+
           <div>
             <div className="menu-icon" onClick={openNav}>
-              {open ? (
-                <FontAwesomeIcon icon={faTimes} />
-              ) : (
-                <FontAwesomeIcon icon={faBars} />
-              )}
+              <span>
+                Menu
+                {open ? (
+                  <FontAwesomeIcon icon={faTimes} />
+                ) : (
+                  <FontAwesomeIcon icon={faBars} className="fabar" />
+                )}
+              </span>
             </div>
             <ul className={`nav-element ${open ? "active" : ""}`}>
               <li className="nav-items">
@@ -45,11 +48,10 @@ const openNav =()=>{
         </div>
       </nav>
       <div className="container">
-        {/* <img className="HOME" src={Home} /> */}
         <div className="texts">
-          <div className="vision">Your Vision, Our Expertise</div>
           <div className="dream">BUILDING YOUR DREAM HOME</div>
-          <button className="show">view our portfolio</button>
+          <div className="vision">Your Vision, Our Expertise</div>
+          <button className="show">Build with us</button>
         </div>
       </div>
     </div>

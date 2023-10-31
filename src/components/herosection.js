@@ -9,7 +9,6 @@ import Rippling from "./img/rippling.png";
 import Attentive from "./img/attentive.png";
 import Sonos from "./img/sonos.png";
 import Ghost from "./img/ghost.png";
-import Rectangle from "./img/rectangle.png";
 import Ten from "./img/ten.png";
 
 function Herosection(){
@@ -52,7 +51,6 @@ function Herosection(){
           </div>
         </div>
         <div className="hero-section">
-          {/* <img src={Rectangle} className="rectangle" /> */}
           <div className="upper">
             <img src={Ten} className="ten" />
             <h1 className="success">
