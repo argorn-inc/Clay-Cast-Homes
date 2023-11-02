@@ -14,6 +14,7 @@
     z-index: 999;
     font-weight: 300;
     font-size: 16px;
+    font-family: Dubai;
    }
 
 .logo {
@@ -81,6 +82,7 @@
     font-size: 35px;
     color: #fff;
     line-height: 45px;
+    font-family: Dubai;
 }
 
 .dream {
@@ -102,6 +104,7 @@
     font-weight: 500;
     background-color: #000;
     margin-top:30px;
+    font-family: Dubai;
 }
 
 @media (max-width:768px){
