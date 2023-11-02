@@ -86,7 +86,7 @@ function Herosection(){
             <button className="build">Build with us</button>
           </div>
         
-          {/* <div className="portfolio">
+          <div className="portfolio">
             <div className="our-portfolio">
               <h2>OUR PORTFOLIO</h2>
               <div className="port">
@@ -118,7 +118,7 @@ function Herosection(){
                  text="We obtain the necessary permits and approvals from local authorities. After approval is gotten, we begin..."/>
               </div>
             </div>
-          </div> */}
+          </div>
         
         </div>
       </div>
