@@ -85,41 +85,62 @@ function Herosection(){
             </h3>
             <button className="build">Build with us</button>
           </div>
-        
-          {/* <div className="portfolio">
+
+          <div className="portfolio">
             <div className="our-portfolio">
               <h2>OUR PORTFOLIO</h2>
               <div className="port">
-                <img src={Tate} />
-                <img src={Flats} />
-                <img src={Residential} />
-                <img src={School} />
-                <img src={Bedroom} />
+                <div className="portfolio-images">
+                  <img src={Tate} className="tate" />
+                  <h3>MINI ESTATE IN UYO</h3>
+                </div>
+                <div className="portfolio-images">
+                  <img src={Flats} className="tate" />
+                  <h3>BLOCK OF FLATS</h3>
+                  <p>INTERIOR</p>
+                </div>
+                <div className="portfolio-images">
+                  <img src={Residential} className="tate" />
+                  <h3>RESIDENTIAL PROPERTY</h3>
+                  <p>ARCHITECTURE</p>
+                </div>
+                <div className="portfolio-images">
+                  <img src={School} className="tate" />
+                  <h3>SCHOOL BUILDING</h3>
+                  <p>ARCHITECTURE</p>
+                </div>
+                <div className="portfolio-images">
+                  <img src={Bedroom} className="tate" />
+                  <h3>3 BEDROOM FLAT</h3>
+                  <p>CONSTRUCTION</p>
+                </div>
               </div>
-            
+
               <button className="btn">
                 Take a peek at our portfolio
                 <span>
                   <FontAwesomeIcon icon={faArrowRight} className="arrow" />
                 </span>
               </button>
-           
             </div>
-            <div className="ready">
-              <h3>Ready to build <br/> together?</h3>
-              <div className="Build">
-                 <BuildImages image={Consult} number={"01"} subtitle="Consultation & initial meeting" 
-                 text="We meet with you to discuss your project needs, budget and timeline. We may also visit the site to get..."/>
-                 <BuildImages image={Concept} number={"02"} subtitle="Concept design" 
-                 text="Based on your requirements, we create a concept design that outlines the overall vision of the project...."/>
-                 <BuildImages image={Design} number={"03"} subtitle="Design development" 
-                 text="Once you approve the concept design, we begin to develop detailed drawings and plans. This may involve co....."/>
-                 <BuildImages image={Permit} number={"04"} subtitle="Permitting & approvals" 
-                 text="We obtain the necessary permits and approvals from local authorities. After approval is gotten, we begin..."/>
-              </div>
-            </div>
-          </div> */}
-        
+                      
+           <div className="together">
+             <div className="ready-to-build">
+               <h3>Ready to build <br/> together?</h3>                
+             </div>              
+              
+             <div className="ready">
+                <BuildImages image={Consult} number={"1"} subtitle="Consultation & initial meeting" 
+                text="We meet with you to discuss your project needs, budget and timeline. We may also visit the site to get..."/>
+                <BuildImages image={Concept} number={"2"} subtitle="Concept design" 
+                text="Based on your requirements, we create a concept design that outlines the overall vision of the project...."/>
+                <BuildImages image={Design} number={"3"} subtitle="Design development" 
+                text="Once you approve the concept design, we begin to develop detailed drawings and plans. This may involve co....."/>
+                <BuildImages image={Permit} number={"4"} subtitle="Permitting & approvals" 
+                text="We obtain the necessary permits and approvals from local authorities. After approval is gotten, we begin..."/>
+             </div>
+           </div> 
+          </div>
         </div>
       </div>
     );

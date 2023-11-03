@@ -1,0 +1,30 @@
+/* 
+.background{
+    width: 600px;
+    margin: 150px 120px;
+    height: 500px;
+}
+.profile{
+    width: 450px;
+        height: 500px;
+        margin: -600px 200px;
+        background-color: #8ad4e7;
+}
+.our-story h1{
+    font-family: 'Khand';
+    font-weight: 500;
+    margin: 100px 110px;
+}
+.our-story h2{
+    font-family: Dubai;
+    margin: -90px 110px;
+    font-weight: 300;
+
+}
+  .buttongroup{
+    margin-left: 800px;
+    padding: 10px 100px;
+  }
+.tabs{
+    flex-wrap: wrap;
+} */
