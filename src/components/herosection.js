@@ -90,56 +90,54 @@ function Herosection(){
             <div className="our-portfolio">
               <h2>OUR PORTFOLIO</h2>
               <div className="port">
-                <div className="portfolio-images">
-                  <img src={Tate} className="tate" />
-                  <h3>MINI ESTATE IN UYO</h3>
+                <div className="tate">
+                  <h2>MINI ESTATE IN UYO</h2>
+                  <p>ENGINEERING</p>
+                  <img src={Tate} className="portfolio-images" />
                 </div>
-                <div className="portfolio-images">
-                  <img src={Flats} className="tate" />
-                  <h3>BLOCK OF FLATS</h3>
+                <div className="tate">
+                  <h2>BLOCK OF FLATS</h2>
                   <p>INTERIOR</p>
+                  <img src={Flats} className="our-portfolio-images" />
                 </div>
-                <div className="portfolio-images">
-                  <img src={Residential} className="tate" />
-                  <h3>RESIDENTIAL PROPERTY</h3>
+
+                <div className="tate">
+                  <h2>RESIDENTIAL PROPERTY</h2>
                   <p>ARCHITECTURE</p>
+                  <img src={Residential} className="our-portfolio-images" />
                 </div>
-                <div className="portfolio-images">
-                  <img src={School} className="tate" />
-                  <h3>SCHOOL BUILDING</h3>
+                <div className="tate">
+                  <h2>SCHOOL BUILDING</h2>
                   <p>ARCHITECTURE</p>
+                  <img src={School} className="our-portfolio-images" />
                 </div>
-                <div className="portfolio-images">
-                  <img src={Bedroom} className="tate" />
-                  <h3>3 BEDROOM FLAT</h3>
+                <div className="tate">
+                  <h2>3 BEDROOM FLAT</h2>
                   <p>CONSTRUCTION</p>
+                  <img src={Bedroom} className="portfolio-images" />
                 </div>
               </div>
 
               <button className="btn">
-                Take a peek at our portfolio
+                view more
                 <span>
                   <FontAwesomeIcon icon={faArrowRight} className="arrow" />
                 </span>
               </button>
             </div>
-                      
-           <div className="together">
-             <div className="ready-to-build">
-               <h3>Ready to build <br/> together?</h3>                
-             </div>              
-              
-             <div className="ready">
-                <BuildImages image={Consult} number={"1"} subtitle="Consultation & initial meeting" 
-                text="We meet with you to discuss your project needs, budget and timeline. We may also visit the site to get..."/>
-                <BuildImages image={Concept} number={"2"} subtitle="Concept design" 
-                text="Based on your requirements, we create a concept design that outlines the overall vision of the project...."/>
-                <BuildImages image={Design} number={"3"} subtitle="Design development" 
-                text="Once you approve the concept design, we begin to develop detailed drawings and plans. This may involve co....."/>
-                <BuildImages image={Permit} number={"4"} subtitle="Permitting & approvals" 
-                text="We obtain the necessary permits and approvals from local authorities. After approval is gotten, we begin..."/>
-             </div>
-           </div> 
+            <div className="ready">
+              <h3>Ready to build <br/> together?</h3>
+              <div className="Build">
+                 <BuildImages image={Consult} number={"1"} subtitle="Consultation & initial meeting" 
+                 text="We meet with you to discuss your project needs, budget and timeline. We may also visit the site to get..."/>
+                 <BuildImages image={Concept} number={"2"} subtitle="Concept design" 
+                 text="Based on your requirements, we create a concept design that outlines the overall vision of the project...."/>
+                 <BuildImages image={Design} number={"3"} subtitle="Design development" 
+                 text="Once you approve the concept design, we begin to develop detailed drawings and plans. This may involve co....."/>
+                 <BuildImages image={Permit} number={"4"} subtitle="Permitting & approvals" 
+                 text="We obtain the necessary permits and approvals from local authorities. After approval is gotten, we begin..."/>
+              </div>
+            </div>
           </div>
         </div>
       </div>
