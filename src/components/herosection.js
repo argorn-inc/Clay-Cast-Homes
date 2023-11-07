@@ -11,6 +11,7 @@ import Sonos from "./img/sonos.png";
 import Ghost from "./img/ghost.png";
 import Ten from "./img/ten.png";
 
+import React from 'react';
 function Herosection(){
     return (
       <div className="Hero-section">

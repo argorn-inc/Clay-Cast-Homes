@@ -5,6 +5,7 @@ import { faBars,faTimes } from "@fortawesome/free-solid-svg-icons";
 import Logo from "./img/logo.png";
 import { useState } from 'react';
 
+import React from 'react';
 function Navbar() {
 const [open,setOpen]=useState(false);
 const openNav =()=>{
