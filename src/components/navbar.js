@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars,faTimes } from "@fortawesome/free-solid-svg-icons";
 
 import Logo from "./img/logo.png";
-import { useState } from 'react';
+import React, { useState } from 'react';
+
 
 function Navbar() {
 const [open,setOpen]=useState(false);

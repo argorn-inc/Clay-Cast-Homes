@@ -24,6 +24,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { BuildImages } from './build-images';
 
+import React from 'react';
 function Herosection(){
     return (
       <div className="Hero-section">
