@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import Herosection from './components/herosection';
 import Navbar from './components/navbar';
 import OurStory from './components/our-story';
@@ -9,7 +10,8 @@ function App() {
     <div>
       <Navbar/>
       <Herosection/>
-      {/* <OurStory/> */}
+      <OurStory/>
+      <Footer/>
     </div>
   );
 }

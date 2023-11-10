@@ -1,3 +1,4 @@
+
 import './herosection.css';
 import Denver from "./img/denver.png";
 import Light from "./img/light 1.png";
@@ -118,25 +119,45 @@ function Herosection(){
                   <img src={Bedroom} className="portfolio-images" />
                 </div>
               </div>
-
-              <button className="btn">
-                view more
-                <span>
-                  <FontAwesomeIcon icon={faArrowRight} className="arrow" />
-                </span>
-              </button>
+              <div className="view-more-button">
+                <button className="btn">
+                  view more
+                  <span>
+                    <FontAwesomeIcon icon={faArrowRight} className="arrow" />
+                  </span>
+                </button>
+              </div>
             </div>
+
             <div className="ready">
-              <h3>Ready to build <br/> together?</h3>
+              <h3>
+                Ready to build <br /> together?
+              </h3>
               <div className="Build">
-                 <BuildImages image={Consult} number={"1"} subtitle="Consultation & initial meeting" 
-                 text="We meet with you to discuss your project needs, budget and timeline. We may also visit the site to get..."/>
-                 <BuildImages image={Concept} number={"2"} subtitle="Concept design" 
-                 text="Based on your requirements, we create a concept design that outlines the overall vision of the project...."/>
-                 <BuildImages image={Design} number={"3"} subtitle="Design development" 
-                 text="Once you approve the concept design, we begin to develop detailed drawings and plans. This may involve co....."/>
-                 <BuildImages image={Permit} number={"4"} subtitle="Permitting & approvals" 
-                 text="We obtain the necessary permits and approvals from local authorities. After approval is gotten, we begin..."/>
+                <BuildImages
+                  image={Consult}
+                  number={"1"}
+                  subtitle="Consultation & initial meeting"
+                  text="We meet with you to discuss your project needs, budget and timeline. We may also visit the site to get..."
+                />
+                <BuildImages
+                  image={Concept}
+                  number={"2"}
+                  subtitle="Concept design"
+                  text="Based on your requirements, we create a concept design that outlines the overall vision of the project...."
+                />
+                <BuildImages
+                  image={Design}
+                  number={"3"}
+                  subtitle="Design development"
+                  text="Once you approve the concept design, we begin to develop detailed drawings and plans. This may involve co....."
+                />
+                <BuildImages
+                  image={Permit}
+                  number={"4"}
+                  subtitle="Permitting & approvals"
+                  text="We obtain the necessary permits and approvals from local authorities. After approval is gotten, we begin..."
+                />
               </div>
             </div>
           </div>
