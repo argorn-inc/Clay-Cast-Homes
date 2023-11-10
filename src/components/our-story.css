@@ -1,38 +1,45 @@
+body {
+  font-family: "Khand", sans-serif;
+}
 .background {
-  width: 600px;
+  width: 550px;
   margin: 150px 120px;
   height: 500px;
+  flex-wrap: wrap;
 }
 .profile {
   width: 450px;
-  margin: -600px 200px;
-  background-color: #8ad4e7;
+  margin-top: -44%;
+  margin-left: 12%;
   height: 500px;
+  flex-wrap: wrap;
 }
 .our-story h1 {
-  font-family: "Khand";
   font-weight: 500;
   margin: 100px 110px;
 }
 .our-story h2 {
-  font-family: Dubai;
   margin: -90px 110px;
+  font-family: Dubai;
   font-weight: 300;
+  font-size: 18px;
   flex-wrap: wrap;
 }
 .buttongroup {
-  margin-left: 800px;
+  margin-left: 700px;
+  margin-top: -580px;
+
   padding: 10px 100px;
 }
 .tabs {
   flex-wrap: wrap;
 }
+
 .contact-us {
   align-items: center;
   justify-content: center;
   display: flex;
   margin: 600px 0;
-  font-family: Barlow;
   font-size: 24px;
   font-weight: bold;
   font-stretch: condensed;
@@ -108,7 +115,7 @@
 }
 
 .part-two {
-  margin: 245px 800px;
+  margin: 245px 740px;
   width: 500px;
   flex-grow: 0;
   display: flex;
@@ -120,21 +127,25 @@
   height: 545px;
   flex-wrap: wrap;
 }
+.name-field{
+  height: 80px;
+}
 
 .name-field input {
   width: 602px;
   height: 60px;
   flex-grow: 0;
-  padding: 22px 22px;
+  padding: 30px 22px;
   border: solid 2px #7e7c7c;
 }
 .email-field input {
   width: 602px;
   height: 60px;
   flex-grow: 0;
-  padding: 40px 522px 28px 13px;
+  padding: 30px 22px;
   border: solid 2px #7e7c7c;
 }
+
 .input-group textarea {
   width: 602px;
   height: 198px;
@@ -175,42 +186,57 @@
     text-align: center;
     height: 40px;
   }
+
   .background {
-    width: 200px;
-    margin: 140px 95px;
-    height: 230px;
+    width: 190px;
+    height: 170px;
+    margin: 110px 95px -180px 94px;
   }
   .profile {
-    width: 150px;
-    margin-bottom: 130px;
-    margin-left: 120px;
-    height: 210px;
+    width: 160px;
+    height: 170px;
+    margin: 29px 111px 80px 109px;
   }
   .buttongroup {
     margin: -70px 0;
   }
+  .b-group{
+    margin-left:-60px;
+  }
 
   .tabs {
-    width: 250px;
-    margin: 80px 0;
+    width: 260px;
+    margin: 10px -40px;
     font-family: Dubai;
     font-size: 12px;
     font-weight: 200;
-    line-height: 1.25;
-    letter-spacing: normal;
-    color: #010202;
     height: 160px;
   }
   .dash {
-    margin: -90px -30px;
+    width: 100px;
+    height: 20px;
+    flex-grow: 0;
+    font-family: Dubai;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: -24px;
+
   }
+  
 
   .contact-us h2 {
     font-size: 28px;
+    
+    
   }
+ 
   .contact-us-section {
     margin-top: -600px;
   }
+  
   .contact-page h2 {
     width: 230px;
     height: 20px;
@@ -235,6 +261,7 @@
     justify-content: center;
     margin-left: 48px;
   }
+ 
   .part-two {
     width: 342px;
     height: 204px;
@@ -242,14 +269,14 @@
     padding: 0;
   }
   .name-field input {
-    width: 160px;
+    width: 158px;
     height: 30px;
     flex-grow: 0;
     padding: 5px 111px 5px 10px;
     border: solid 1px #010202;
   }
   .email-field input {
-    width: 160px;
+    width: 155px;
     height: 30px;
     flex-grow: 0;
     padding: 5px 111px 5px 10px;
@@ -263,11 +290,11 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 22px;
+    gap: 16px;
   }
   .input-group textarea {
     width: 330px;
-    height: 60px;
+    height: 65px;
     flex-grow: 0;
     padding: 7px 208px 33px 10px;
     border: solid 2px #a9a9a9;

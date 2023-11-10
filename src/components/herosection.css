@@ -10,17 +10,16 @@
 
 }
 .hero h2{
-    margin-left: 200px;
-    margin-top: 130px;
+    margin-left: 100px;
+    margin-top: 90px;
     font-family: 'Khand';
     
 }
 .images{
     display: flex;
     flex-wrap: wrap;
-    gap: 150px;
-    margin: 0 155px;
-    margin-top: 70px;
+    gap: 100px;
+    margin: 20px 70px;
 
 }
 .image{
@@ -48,20 +47,19 @@
 
 .companies {
     display: flex;
-    padding:0 50px 200px;
-    gap: 80px;
+    padding:30px ;
+    gap: 50px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 65px;
 
 }
 
 .company {
     background-image: url(./img/bg.png);
-    height: 160px;
-    margin-top: 150px;
-    height: auto;
+    height: fit-content;
+    margin-top: 100px;
+    padding: 50px;
 }
 
 .hero-section {
@@ -86,7 +84,7 @@
 }
 .numbers{
     display: flex;
-    gap: 480px;
+    gap: 250px;
     flex-wrap: wrap;
    
 }
@@ -139,7 +137,7 @@
 
 .port{
     display: flex;
-    gap: 82.7px;
+    gap: 53.52px;
     margin-top: 70px;
     flex-wrap: wrap;
     
@@ -147,11 +145,13 @@
 }
 .our-portfolio-images{
 flex-grow: 0;
-width: 350px;
+width: 275px;
 height: 400px;
+flex-wrap: wrap;
 }
 .portfolio-images{
     height: 400px;
+    flex-wrap: wrap;
 
 }
 .tate{
@@ -178,7 +178,11 @@ height: 400px;
     text-align: left;
     color: #181719;
 }
-
+.view-more-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .btn{
     border: 1px solid #FBFAFA;
     width: 320px;
@@ -193,8 +197,7 @@ height: 400px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 50px 0 0 690px;
-    padding: 15px 12px;
+    /* padding: 15px 12px; */
     justify-content: center;
 }
 .arrow{
@@ -275,7 +278,7 @@ height: 400px;
     
     }
     .trustee{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
     }
     .ten{
@@ -286,14 +289,14 @@ height: 400px;
     margin-top: 50px;
    }
    .comp{
-    width: 105px;
+    width: 80px;
    }
    .sonos{
-    width: 70px;
-    margin-right: 70px;
+    width: 50px;
+    margin-right: 50px;
    }
    .ghost{
-    width: 70px;   
+    width: 50px;   
       
    }
    .numbers{
@@ -371,14 +374,21 @@ height: 400px;
     height: 43px;
    }
   .ready h3{
-    font-size: 30px;
-    display: flex;
+    font-size: 35px;
+    /* display: flex;
     justify-content:center;
-    align-items: center;
+    align-items: center; */
   }
 
 .Build{
-    gap: 0 90px;
+    /* flex-wrap: wrap;
+    flex-direction: column;
+        flex-direction: row; */
+        /* justify-content: center;
+        align-items: center; */
+        /* gap: 88px; */
+
+    gap: 0 85px;
     flex-wrap: wrap;
     margin: -50px 70px;
 }

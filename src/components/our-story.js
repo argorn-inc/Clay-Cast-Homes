@@ -9,7 +9,7 @@ import Email from "./img/email.png";
 
 const Tab = styled.button`
   font-size: 20px;
-  padding: 10px 50px;
+  padding: 10px 60px;
   cursor: pointer;
   opacity: 0.6;
   background: white;
@@ -18,9 +18,10 @@ const Tab = styled.button`
   ${({ active }) =>
     active &&
     `
-    border-bottom: 2px solid black;
-    width:20px
+     border-bottom: 2px solid black;
     opacity: 1;
+     
+    
   `}
 `;
 const ButtonGroup = styled.div`
@@ -43,10 +44,10 @@ function OurStory() {
           </h2>
         </div>
 
-        <div>
+        <div className="back-profile">
           <img src={Background} className="background" />
-          <img src={Profile} className="profile" />
         </div>
+        <img src={Profile} className="profile" />
         <div className="buttongroup">
           <ButtonGroup className="b-group">
             {types.map((type) => (
@@ -65,9 +66,7 @@ function OurStory() {
             We may also visit the site to get We meet with you to discuss your
             project needs, budget and timeline. We may also visit the site to
             get We meet with you to discuss your project needs, budget and
-            timeline. We may also visit the site to get... : We meet with you to
-            discuss your project needs, budget and timeline. We may also visit
-            the site to get.
+            timeline.
           </p>
         </div>
         <div className="contact-us-section">
