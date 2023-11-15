@@ -4,6 +4,9 @@
      font-family: 'Denk One', sans-serif;
     
  }
+
+
+
 .Hero-section{
     height: auto;
    
@@ -101,6 +104,19 @@
     font-family: Dubai;
 
 }
+.build{
+    border: 1px solid #FBFAFA;
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #000;
+    margin-top: 30px;
+    font-family: Dubai;
+    border-radius: 5px;
+}
 .nums{
     -webkit-text-stroke: 2px;
     font-size: 180px;
@@ -134,24 +150,19 @@
     font-weight: 500;
     font-family: 'Khand', sans-serif;
 }
-
-.port{
+.container-carousel {
+    width: 99vw;
     display: flex;
-    gap: 53.52px;
     margin-top: 70px;
+    transition: transform 0.8s ease-in-out;
     flex-wrap: wrap;
     
-
-}
-.our-portfolio-images{
-flex-grow: 0;
-width: 275px;
-height: 400px;
-flex-wrap: wrap;
 }
 .portfolio-images{
-    height: 400px;
+    height: 430px;
+    /* gap: 10px; */
     flex-wrap: wrap;
+    width: 350px;
 
 }
 .tate{
@@ -324,23 +335,17 @@ flex-wrap: wrap;
    .explore{
     margin-top: -58px;
    }
-   .port{
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-   
+   .our-portfolio{
+    margin-top: -30px;
    }
-   .our-portfolio-images{
-    width: 150px;
-    height: 200px;
+   .tate{
+    padding:0 100px;
+   }
 
-   }
    .portfolio-images{
-    width: 150px;
-    height: 200px;
-
+    width: 200px;
+    height: 300px;
+    gap: 50px 0;
    }
    .tate h2{
     font-size: 10px;
@@ -358,7 +363,7 @@ flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 18px;
    }
    .btn{
     width: 180px;
@@ -375,19 +380,10 @@ flex-wrap: wrap;
    }
   .ready h3{
     font-size: 35px;
-    /* display: flex;
-    justify-content:center;
-    align-items: center; */
+   
   }
 
 .Build{
-    /* flex-wrap: wrap;
-    flex-direction: column;
-        flex-direction: row; */
-        /* justify-content: center;
-        align-items: center; */
-        /* gap: 88px; */
-
     gap: 0 85px;
     flex-wrap: wrap;
     margin: -50px 70px;
