@@ -1,16 +1,19 @@
 import './App.css';
-import Footer from './components/Footer';
-import Herosection from './components/herosection';
-import Navbar from './components/navbar';
-import OurStory from './components/our-story';
+import Footer from './components/HomePage/Footer';
+import Herosection from './components/HomePage/herosection';
+import Navbar from './components/HomePage/navbar';
+import OurStory from './components/HomePage/our-story';
+
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Herosection/>
-      <OurStory/>
-      <Footer/>
+     <Navbar/>
+     <Herosection/>
+     <OurStory/>
+     <Footer/>
+     
+     
     </div>
   );
 }
