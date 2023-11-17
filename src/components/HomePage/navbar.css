@@ -51,62 +51,6 @@
     font-weight: 700;
 }
 
-.HOME {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-
-}
-
-.container {
-    position: relative;
-    text-align: justify;
-    color: white;
-    background-image: url(./img/Home.png);
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.texts {
-   top: 50px;
-      
-}
-
- .vision {
-    font-weight: 400;
-    margin-top: 20px;
-    font-size: 35px;
-    color: #fff;
-    line-height: 45px;
-    font-family: Dubai;
-}
-
-.dream {
-    font-weight: 500;
-    font-size: 80px;
-    line-height: 90px;
-    font-family: 'Khand';
-    
-} 
-
-.show {
-    border: 1px solid #FBFAFA;
-    border-radius: 5px;
-    width: 200px;
-    height: 40px;
-    color: #ffffff;
-    opacity: 1;
-    font-size: 20px;
-    font-weight: 500;
-    background-color: #000;
-    margin-top:30px;
-    font-family: Dubai;
-}
-
 @media (max-width:768px){
     .nav-element{
         flex-direction: column;
@@ -156,22 +100,7 @@
         top: 60px;
     }
    
-    .dream{
-        margin: 0 35px 15px;
-        font-family: Khand;
-        font-size: 40px;
-        font-weight: 500;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.25;
-        letter-spacing: normal;
-        text-align: left;
-    }
-    .vision{
-      margin: 0 35px 13px;  
-      font-size: 20px;  
-
-    }
+  
     .show {
       margin: 15px 35px ;
 

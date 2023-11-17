@@ -1,20 +1,23 @@
-import './navbar.css'
+import "./navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars,faTimes } from "@fortawesome/free-solid-svg-icons";
-
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import Logo from "./img/logo.png";
-import { useState } from 'react';
+import { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 function Navbar() {
-const [open,setOpen]=useState(false);
-const openNav =()=>{
-  setOpen(!open)
-}
+  const [open, setOpen] = useState(false);
+  const openNav = () => {
+    setOpen(!open);
+  };
   return (
     <div>
       <nav className={`navbar ${open ? "active" : ""}`}>
         <div className="navTop">
-          <img className="logo" src={Logo} />
+          <Link to="/">
+            <img className="logo" src={Logo} />
+          </Link>
 
           <div>
             <div className="menu-icon" onClick={openNav}>
@@ -23,7 +26,11 @@ const openNav =()=>{
                 {open ? (
                   <FontAwesomeIcon icon={faTimes} />
                 ) : (
-                  <FontAwesomeIcon icon={faBars} className="fabar" />
+                  <>
+                    <Link to="/contact">
+                      <FontAwesomeIcon icon={faBars} className="fabar" />
+                    </Link>
+                  </>
                 )}
               </span>
             </div>
@@ -47,13 +54,6 @@ const openNav =()=>{
           </div>
         </div>
       </nav>
-      <div className="container">
-        <div className="texts">
-          <div className="dream">BUILDING YOUR DREAM HOME</div>
-          <div className="vision">Your Vision, Our Expertise</div>
-          <button className="show">Build with us</button>
-        </div>
-      </div>
     </div>
   );
 }

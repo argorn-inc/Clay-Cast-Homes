@@ -1,20 +1,25 @@
-import './App.css';
-import Footer from './components/HomePage/Footer';
-import Herosection from './components/HomePage/herosection';
-import Navbar from './components/HomePage/navbar';
-import OurStory from './components/HomePage/our-story';
-
-
+import React from "react";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ContactPage from "./components/ContactPage/contact-us";
+import Home from './components/HomePage/index'
 function App() {
   return (
-    <div>
-     <Navbar/>
-     <Herosection/>
-     <OurStory/>
-     <Footer/>
-     
-     
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/" render={() => <HomePageComponents />} /> */}
+
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+    </BrowserRouter>
+    // <div>
+    //  <Navbar/>
+    //  <Herosection/>
+    //  <OurStory/>
+    //  <Contact_Us/>
+    //  <Footer/>
+    // </div>
   );
 }
 

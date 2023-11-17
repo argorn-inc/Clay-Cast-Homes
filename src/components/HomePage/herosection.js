@@ -48,6 +48,13 @@ function Herosection() {
 
   return (
     <div className="Hero-section">
+      <div className="container">
+        <div className="texts">
+          <div className="dream">BUILDING YOUR DREAM HOME</div>
+          <div className="vision">Your Vision, Our Expertise</div>
+          <button className="show">Build with us</button>
+        </div>
+      </div>
       <div className="hero">
         <h2>OUR SECTORS</h2>
         <div className="images">
