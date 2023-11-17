@@ -16,6 +16,10 @@
     font-size: 16px;
     font-family: Dubai;
    }
+    a {
+            text-decoration: none;
+            color: inherit;
+     }
 
 .logo {
     width: 75px;
@@ -52,6 +56,10 @@
 }
 
 @media (max-width:768px){
+    a {
+            text-decoration: none;
+            color: inherit;
+        }
     .nav-element{
         flex-direction: column;
         position: absolute;
@@ -64,6 +72,7 @@
         opacity: 0;
         visibility: hidden;
         transition: all 0.3s;
+        text-decoration: none;
     }
    
     .nav-items{
@@ -101,9 +110,6 @@
     }
    
   
-    .show {
-      margin: 15px 35px ;
-
-    }
+ 
 }
 

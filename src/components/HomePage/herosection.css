@@ -1,401 +1,368 @@
- 
- body {
-     font-family: 'Khand', sans-serif;
-     font-family: 'Denk One', sans-serif;
-    
- }
+body {
+  font-family: "Khand", sans-serif;
+  font-family: "Denk One", sans-serif;
+}
 
-
-
-.Hero-section{
-    height: auto;
-   
-
+.Hero-section {
+  height: auto;
 }
 .HOME {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .container {
-    position: relative;
-    text-align: justify;
-    color: white;
-    background-image: url(./img/Home.png);
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  text-align: justify;
+  color: white;
+  background-image: url(./img/Home.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .texts {
-    top: 50px;
-
+  top: 50px;
 }
 
 .vision {
-    font-weight: 400;
-    margin-top: 20px;
-    font-size: 35px;
-    color: #fff;
-    line-height: 45px;
-    font-family: Dubai;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 35px;
+  color: #fff;
+  line-height: 45px;
+  font-family: Dubai;
 }
 
 .dream {
-    font-weight: 500;
-    font-size: 80px;
-    line-height: 90px;
-    font-family: 'Khand';
-
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 90px;
+  font-family: "Khand";
 }
 
 .show {
-    border: 1px solid #FBFAFA;
-    border-radius: 5px;
-    width: 200px;
-    height: 40px;
-    color: #ffffff;
-    opacity: 1;
-    font-size: 20px;
-    font-weight: 500;
-    background-color: #000;
-    margin-top: 30px;
-    font-family: Dubai;
+  border: 1px solid #fbfafa;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #000;
+  margin-top: 30px;
+  font-family: Dubai;
 }
 
-.hero h2{
-    margin-left: 100px;
-    margin-top: 90px;
-    font-family: 'Khand';
-    
+.hero h2 {
+  margin-left: 100px;
+  margin-top: 90px;
+  font-family: "Khand";
 }
-.images{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 100px;
-    margin: 20px 70px;
-
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin: 20px 70px;
 }
-.image{
-    display: grid;
-    place-items: center;
+.image {
+  display: grid;
+  place-items: center;
 }
-.image h3{
-    margin-bottom: 20px;
-    font-family:'Denk one';
-    font-size: 25px;
-    color: rgba(0, 3, 12, 0.5);
+.image h3 {
+  margin-bottom: 20px;
+  font-family: "Denk one";
+  font-size: 25px;
+  color: rgba(0, 3, 12, 0.5);
 }
-.image p{
-    margin-top: 18px;
-    font-family: Dubai;
+.image p {
+  margin-top: 18px;
+  font-family: Dubai;
 }
 .trustee {
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 45px;
-    text-align: center;
-    font-family: Dubai;
-    
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 45px;
+  text-align: center;
+  font-family: Dubai;
 }
 
 .companies {
-    display: flex;
-    padding:30px ;
-    gap: 50px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-
+  display: flex;
+  padding: 30px;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .company {
-    background-image: url(./img/bg.png);
-    height: fit-content;
-    margin-top: 100px;
-    padding: 50px;
+  background-image: url(./img/bg.png);
+  height: fit-content;
+  margin-top: 100px;
+  padding: 50px;
 }
 
 .hero-section {
-    background-image: url(./img/rectangle.png);
-    position: relative;
-    display: flex;
-    height: auto;
-    background-size: cover;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-    color: #fff;
-    flex-direction: column;
-    gap: 130px;
-    padding: 80px 0 ;
-
+  background-image: url(./img/rectangle.png);
+  position: relative;
+  display: flex;
+  height: auto;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  flex-direction: column;
+  gap: 130px;
+  padding: 80px 0;
 }
-.upper{
-    display: flex;
-    align-items: center;
-    margin-top: 80px;
+.upper {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
 }
-.numbers{
-    display: flex;
-    gap: 250px;
-    flex-wrap: wrap;
-   
+.numbers {
+  display: flex;
+  gap: 250px;
+  flex-wrap: wrap;
 }
-.numbers .seventy{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;   
-
+.numbers .seventy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.paragraph{
-    font-size: 22px;
-    font-weight: 200;
-    font-family: Dubai;
-
+.paragraph {
+  font-size: 22px;
+  font-weight: 200;
+  font-family: Dubai;
 }
-.build{
-    border: 1px solid #FBFAFA;
-    width: 200px;
-    height: 40px;
-    color: #ffffff;
-    opacity: 1;
-    font-size: 20px;
-    font-weight: 500;
-    background-color: #000;
-    margin-top: 30px;
-    font-family: Dubai;
-    border-radius: 5px;
+.build {
+  border: 1px solid #fbfafa;
+  width: 200px;
+  height: 40px;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #000;
+  margin-top: 30px;
+  font-family: Dubai;
+  border-radius: 5px;
 }
-.nums{
-    -webkit-text-stroke: 2px;
-    font-size: 180px;
-    flex-grow: 0;
-    color: transparent;
-    -webkit-text-stroke-color: #fff;
-    line-height: 1.05;
-    font-family: 'Denk One';
-    font-weight: normal;
-
+.nums {
+  -webkit-text-stroke: 2px;
+  font-size: 180px;
+  flex-grow: 0;
+  color: transparent;
+  -webkit-text-stroke-color: #fff;
+  line-height: 1.05;
+  font-family: "Denk One";
+  font-weight: normal;
 }
-.explore{
-    display: grid;
-    place-items: center;
-    gap: 30px;
-
+.explore {
+  display: grid;
+  place-items: center;
+  gap: 30px;
 }
 
-.explore h3{
-    color: #fff;
-    font-weight: 300;
-    text-align: center;
-    font-size: 20px;
-    font-family: Dubai;
+.explore h3 {
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  font-size: 20px;
+  font-family: Dubai;
 }
-.our-portfolio{
-    margin-top: 90px;
+.our-portfolio {
+  margin-top: 90px;
 }
-.our-portfolio h2{
-    font-size: 30px;
-    font-weight: 500;
-    font-family: 'Khand', sans-serif;
+.our-portfolio h2 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Khand", sans-serif;
 }
 .container-carousel {
-    width: 99vw;
-    display: flex;
-    margin-top: 70px;
-    transition: transform 0.8s ease-in-out;
-    flex-wrap: wrap;
-    
+  width: 99vw;
+  display: flex;
+  margin-top: 70px;
+  transition: transform 0.8s ease-in-out;
+  flex-wrap: wrap;
 }
-.portfolio-images{
-    height: 430px;
-    /* gap: 10px; */
-    flex-wrap: wrap;
-    width: 350px;
-
+.portfolio-images {
+  height: 430px;
+  flex-wrap: wrap;
+  width: 350px;
 }
-.tate{
-    position: relative;
+.tate {
+  position: relative;
 }
-.tate h2{
-    position: absolute;
-    font-family: Dubai;
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 30px;
-    margin-left: 50px;
-    flex-wrap: wrap;
-    text-align: center;
-    color: #181719;
+.tate h2 {
+  position: absolute;
+  font-family: Dubai;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-left: 50px;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #181719;
 }
-.tate p{
-    position: absolute;
-    transform: rotate(-90deg);
-    font-size: 12px;
-    font-weight: 300;
-    margin-top: 200px;
-    font-family: Khand;
-    text-align: left;
-    color: #181719;
+.tate p {
+  position: absolute;
+  transform: rotate(-90deg);
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 200px;
+  font-family: Khand;
+  text-align: left;
+  color: #181719;
 }
-.view-more-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.view-more-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.btn{
-    border: 1px solid #FBFAFA;
-    width: 320px;
-    height: 40px;
-    color: #ffffff;
-    opacity: 1;
-    font-size: 18px;
-    font-weight: 500;
-    background-color: #000;
-    margin-top: 30px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* padding: 15px 12px; */
-    justify-content: center;
+.btn {
+  border: 1px solid #fbfafa;
+  width: 320px;
+  height: 40px;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #000;
+  margin-top: 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.arrow{
-    margin-left: 40px;
-    font-size: 30px;
-    
+.arrow {
+  margin-left: 40px;
+  font-size: 30px;
 }
-.ready{
-    font-size: 35px;
-    font-family: 'Khand', sans-serif;
-    /* display: flex; */
+.ready {
+  font-size: 35px;
+  font-family: "Khand", sans-serif;
 }
-.ready h3{
-    margin-top: 170px;
-    font-size: 40px;
-    margin-left: 60px;
+.ready h3 {
+  margin-top: 170px;
+  font-size: 40px;
+  margin-left: 60px;
 }
-.Build{
-    display: flex;
-    gap: 80px;
-    margin: 0 70px;
-    
+.Build {
+  display: flex;
+  gap: 80px;
+  margin: 0 70px;
 }
 .Build-process {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.Build-process h2{
-    font-size: 24px;
-    font-family: Dubai;
+.Build-process h2 {
+  font-size: 24px;
+  font-family: Dubai;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.Build-process p {
+  font-size: 14px;
+  font-family: Dubai;
+  margin-top: 20px;
+}
+.Build-process h3 {
+  width: 20px;
+  font-family: DenkOne;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fbfafa;
+  background-color: #656565;
+  padding: 3px 4px;
+  border-radius: 12px;
+  margin-left: 65px;
+}
+
+@media (max-width: 768px) {
+  .dream {
+    margin: 0 35px 15px;
+    font-family: Khand;
+    font-size: 40px;
     font-weight: 500;
-    margin-top: 20px;
-}
-.Build-process p{
-    font-size: 14px;
-    font-family: Dubai;
-    margin-top: 20px;
-}
-.Build-process h3{
-    width: 20px;
-    font-family: DenkOne;
-    font-size: 14px;
-    line-height: 1;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
     letter-spacing: normal;
+    text-align: left;
+  }
+
+  .vision {
+    margin: 0 35px 13px;
+    font-size: 20px;
+  }
+  .show {
+    margin: 15px 35px;
+  }
+  .images {
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .upper {
+    flex-direction: column;
+  }
+  .numbers {
+    gap: 50px;
+  }
+  .explore {
     text-align: center;
-    color: #fbfafa;
-    background-color: #656565;
-    padding: 3px 4px;
-    border-radius: 12px;
-    margin-left: 65px;
-   
-    }
-
-@media (max-width:768px) {
-    .dream {
-            margin: 0 35px 15px;
-            font-family: Khand;
-            font-size: 40px;
-            font-weight: 500;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1.25;
-            letter-spacing: normal;
-            text-align: left;
-        }
-    
-        .vision {
-            margin: 0 35px 13px;
-            font-size: 20px;
-    
-        }
-    .images{
-        gap: 100px;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .upper{
-        flex-direction: column;
-        
-
-    }
-    .numbers{
-        gap: 50px;
-    
-
-    }
-    .explore{
-        text-align: center;
-        text-wrap: balance;
-    }
-    .hero h2{
-        font-size: 25px;
-        margin-left: 100px;
-    
-    }
-    .trustee{
-        font-size: 18px;
-        font-weight: 400;
-    }
-    .ten{
-        width: 180px;
-    }
-   .success{
+    text-wrap: balance;
+  }
+  .hero h2 {
+    font-size: 25px;
+    margin-left: 100px;
+  }
+  .trustee {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .ten {
+    width: 180px;
+  }
+  .success {
     font-size: 20px;
     margin-top: 50px;
-   }
-   .comp{
+  }
+  .comp {
     width: 80px;
-   }
-   .sonos{
+  }
+  .sonos {
     width: 50px;
     margin-right: 50px;
-   }
-   .ghost{
-    width: 50px;   
-      
-   }
-   .numbers{
+  }
+  .ghost {
+    width: 50px;
+  }
+  .numbers {
     margin-top: -58px;
     gap: 50px;
     align-items: center;
     justify-content: center;
-    
-   }
-   .nums{
-        font-family: 'DenkOne';
-        
-    }
-   
-   .seventy h2{
+  }
+  .nums {
+    font-family: "DenkOne";
+  }
+
+  .seventy h2 {
     font-size: 130px;
     font-weight: 400;
     flex-wrap: wrap;
@@ -403,42 +370,40 @@
     display: block;
     justify-content: center;
     align-items: center;
-    
-   }
-   .explore{
+  }
+  .explore {
     margin-top: -58px;
-   }
-   .our-portfolio{
+  }
+  .our-portfolio {
     margin-top: -30px;
-   }
-   .tate{
-    padding:0 100px;
-   }
+  }
+  .tate {
+    padding: 0 100px;
+  }
 
-   .portfolio-images{
+  .portfolio-images {
     width: 200px;
     height: 300px;
     gap: 50px 0;
-   }
-   .tate h2{
+  }
+  .tate h2 {
     font-size: 10px;
     line-height: 1.25;
     margin-left: 1.8px;
     margin-top: 8px;
-
-   }
-   .tate p{
+  }
+  .tate p {
     font-size: 8px;
     margin-top: 110px;
     margin-left: 1px;
-   }
-   .our-portfolio h2{
+  }
+  .our-portfolio h2 {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
-   }
-   .btn{
+  }
+  .btn {
     width: 180px;
     font-size: 18px;
     display: flex;
@@ -446,79 +411,35 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
-    margin: 40px 80px ;
+    margin: 40px 80px;
     padding: 0 10px;
     border: solid 1px #fbfafa;
     height: 43px;
-   }
-  .ready h3{
+  }
+  .ready h3 {
     font-size: 35px;
-   
   }
 
-.Build{
+  .Build {
     gap: 0 85px;
     flex-wrap: wrap;
     margin: -50px 70px;
-}
-  .Build-process{
+  }
+  .Build-process {
     width: 80px;
   }
-  .Build-process h2{
+  .Build-process h2 {
     font-size: 12px;
   }
-  .Build-process p{
+  .Build-process p {
     font-size: 8px;
   }
-   .Build-process h3{
+  .Build-process h3 {
     font-size: 14px;
     margin-left: 28px;
-   }
-   .build-images{
+  }
+  .build-images {
     width: 40px;
     height: 40px;
-   }
-
-
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

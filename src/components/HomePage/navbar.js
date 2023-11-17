@@ -5,7 +5,6 @@ import Logo from "./img/logo.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-
 function Navbar() {
   const [open, setOpen] = useState(false);
   const openNav = () => {
@@ -26,11 +25,7 @@ function Navbar() {
                 {open ? (
                   <FontAwesomeIcon icon={faTimes} />
                 ) : (
-                  <>
-                    <Link to="/contact">
-                      <FontAwesomeIcon icon={faBars} className="fabar" />
-                    </Link>
-                  </>
+                  <FontAwesomeIcon icon={faBars} className="fabar" />
                 )}
               </span>
             </div>
@@ -47,9 +42,11 @@ function Navbar() {
               <li className="nav-items">
                 <a>SERVICES</a>
               </li>
-              <li className="nav-items">
-                <a>CONTACTS</a>
-              </li>
+              <Link to="/contact" style={{ textDecoration: "none" }}>
+                <li className="nav-items">
+                  <a>CONTACTS</a>
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
