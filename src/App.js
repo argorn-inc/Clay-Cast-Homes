@@ -8,18 +8,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/" render={() => <HomePageComponents />} /> */}
-
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </BrowserRouter>
-    // <div>
-    //  <Navbar/>
-    //  <Herosection/>
-    //  <OurStory/>
-    //  <Contact_Us/>
-    //  <Footer/>
-    // </div>
+  
   );
 }
 
