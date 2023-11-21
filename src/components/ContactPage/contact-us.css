@@ -26,8 +26,15 @@
         
 }
 .contact-at-contact{
-    color: #ffffff;
+    color: #ffffff !important;
     margin-top:-600px;
+}
+.contact-at-contact h2{
+    color: #fbfafa !important;
+}
+.contact-at-contact p{
+    color: #fbfafa !important;
+
 }
 .contact-footer{
     margin-top: -140px;

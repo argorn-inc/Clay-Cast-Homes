@@ -67,8 +67,8 @@ body {
 .images {
   display: flex;
   flex-wrap: wrap;
-  gap: 100px;
-  margin: 20px 70px;
+  gap: 85px;
+  margin: 20px 95px;
 }
 .image {
   display: grid;
