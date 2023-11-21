@@ -67,7 +67,7 @@ body {
 .images {
   display: flex;
   flex-wrap: wrap;
-  gap: 85px;
+  gap: 65px;
   margin: 20px 95px;
 }
 .image {
