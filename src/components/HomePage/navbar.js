@@ -36,9 +36,12 @@ function Navbar() {
               <li className="nav-items">
                 <a>ABOUT</a>
               </li>
-              <li className="nav-items">
-                <a>PORTFOLIO</a>
-              </li>
+              <Link to="/portfolio" style={{ textDecoration: "none" }}>
+                <li className="nav-items">
+                  <a>PORTFOLIO</a>
+                </li>
+              </Link>
+
               <li className="nav-items">
                 <a>SERVICES</a>
               </li>

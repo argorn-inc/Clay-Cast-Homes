@@ -1,0 +1,146 @@
+body {
+    font-family: "Khand", sans-serif;
+    font-family: "Denk One", sans-serif;
+}
+
+.porfolio-image-text{
+    background-image: url(./img/Rectangle\ 82.png);
+    position: relative;
+    color: white;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        font-family: "Denk One", sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: normal;
+    font-size: 25px;
+        text-align: right;
+    
+    
+}
+.rectangle-bg{
+    position: relative;
+        color: white;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        width: 100%;
+
+}
+.transbox{
+    position: absolute;
+}
+.portfolio-images-reused{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;    
+    flex-wrap: wrap;
+}
+.portfolio-sectors{
+    margin-left: 100px;
+    font-family: "Khand";
+    padding: 50px;
+}
+.port-card{
+    background-color: #000;
+    color: #fff;
+    margin-top: -4px;
+    padding: 10px;
+}
+
+.portfolio-cards h3 {
+    width: 300px;
+    font-family: "Denk one";
+    font-size: 25px;
+}
+
+.portfolio-cards p {
+    width: 300px;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    font-family: Dubai;
+       
+}
+.port-images{
+    width: 300px;
+    height: 200px;
+}
+.portfolioback{
+    margin: 100px 140px;
+    padding: 90px 50px;
+    object-fit: contain;
+    text-align: left;
+    background-image: url(./img/Rectangle\ 105.png);           
+}
+.portfolioback h2{
+    font-family: Dubai;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3d4e5d;
+    font-size: 25px;
+}
+.portfolio-contact{
+    margin-top: -480px;
+}
+.portfolio-footer{
+    margin-top: -200px;
+}
+
+@media (max-width: 768px) {
+    .porfolio-image-text{
+        background-image: url(./img/Rectangle\ 82-mobile.png);
+    }
+
+    .transbox{
+    margin-right: 50px;
+    }
+    .portfolioback{
+        width: 352px;
+            height: 146px;
+            margin: 59px 21px 69px 20px;
+            object-fit: contain;
+            background-color: rgba(0, 0, 0, 0.05);
+
+    }
+    .portfolioback h2{
+        width: 310px;
+        margin: -48px -30px;
+        font-family: Dubai;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.6;
+        letter-spacing: normal;
+        text-align: center;
+        color: #3d4e5d;
+        height: 104px;
+    }
+   .portfolio-contact{
+    margin-top: 60px;
+    padding-top: 10px;
+   }
+   .portfolio-sectors{
+    margin-left: 50px;
+   }
+     
+
+}
