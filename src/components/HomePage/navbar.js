@@ -30,12 +30,16 @@ function Navbar() {
               </span>
             </div>
             <ul className={`nav-element ${open ? "active" : ""}`}>
-              <li className="nav-items">
-                <a className="home">HOME</a>
-              </li>
-              <li className="nav-items">
-                <a>ABOUT</a>
-              </li>
+              <Link to="/">
+                <li className="nav-items">
+                  <a className="home">HOME</a>
+                </li>
+              </Link>
+              <Link to="/about">
+                <li className="nav-items">
+                  <a>ABOUT</a>
+                </li>
+              </Link>
               <Link to="/portfolio" style={{ textDecoration: "none" }}>
                 <li className="nav-items">
                   <a>PORTFOLIO</a>
