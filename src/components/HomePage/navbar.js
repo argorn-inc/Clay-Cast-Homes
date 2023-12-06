@@ -35,11 +35,9 @@ function Navbar() {
                   <a className="home">HOME</a>
                 </li>
               </Link>
-              <Link to="/about">
-                <li className="nav-items">
+                {/* <li className="nav-items">
                   <a>ABOUT</a>
-                </li>
-              </Link>
+                </li> */}
               <Link to="/portfolio" style={{ textDecoration: "none" }}>
                 <li className="nav-items">
                   <a>PORTFOLIO</a>

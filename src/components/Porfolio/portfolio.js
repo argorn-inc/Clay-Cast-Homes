@@ -1,16 +1,12 @@
 import React from 'react';
 import './portfolio.css';
 import Navbar from '../HomePage/navbar';
+import { Data } from './data';
 import { PortfolioImage } from './portfolio-images';
-import Residential from './img/Rectangle 10.png';
-import SchoolProperty from './img/Rectangle 10-2.png';
-import BedroomFlats from './img/Rectangle 10-3.png';
-import bedroomflat from './img/Rectangle 10-4.png';
-import BlockFlats from './img/Rectangle 10-5.png';
-import ResidentialProperty from './img/Rectangle 10-6.png';
 import Rectanglebg from './img/Rectangle-bg.png'
 import Contact from '../HomePage/Contact-Us';
 import Footer from '../HomePage/Footer';
+import { Link } from 'react-router-dom';
 
 
 function Portfolio() {
@@ -26,42 +22,15 @@ function Portfolio() {
       <div>
         <h1 className="portfolio-sectors">Our Sectors</h1>
         <div className="portfolio-images-reused">
-          <PortfolioImage
-            image={Residential}
-            title="Residentia Property"
-            paragraph="This project was located in Asaba, Delta State. 
-          We provided the client with Architectural designs, interiors, 3dimension  views and construction of the project."
-          />
-          <PortfolioImage
-            image={SchoolProperty}
-            title="School Property"
-            paragraph="This project was located in Asaba, Delta State. 
-          We provided the client with Architectural designs, interiors, 3dimension  views and construction of the project."
-          />
-          <PortfolioImage
-            image={BedroomFlats}
-            title={"Residentia Property"}
-            paragraph="This project was located in Asaba, Delta State. 
-          We provided the client with Architectural designs, interiors, 3dimension  views and construction of the project."
-          />
-          <PortfolioImage
-            image={bedroomflat}
-            title={"Residentia Property"}
-            paragraph="This project was located in Asaba, Delta State. 
-          We provided the client with Architectural designs, interiors, 3dimension  views and construction of the project."
-          />
-          <PortfolioImage
-            image={BlockFlats}
-            title={"Residentia Property"}
-            paragraph="This project was located in Asaba, Delta State. 
-          We provided the client with Architectural designs, interiors, 3dimension  views and construction of the project."
-          />
-          <PortfolioImage
-            image={ResidentialProperty}
-            title={"Residentia Property"}
-            paragraph="This project was located in Asaba, Delta State. 
-          We provided the client with Architectural designs, interiors, 3dimension  views and construction of the project."
-          />
+          {Data.map((dataContent) => (
+            <Link to={`/page/${dataContent.id}`} key={dataContent}>
+              <div key={dataContent.id} className="portfolio-cards">
+                <img src={dataContent.image} className="port-images" />
+                <h3 className="port-card">{dataContent.title}</h3>
+                <p className="port-card">{dataContent.paragraph}</p>
+              </div>
+            </Link>
+          ))}
         </div>
       </div>
       <div className="portfolioback">
@@ -75,7 +44,7 @@ function Portfolio() {
         <Contact />
       </div>
       <div className="portfolio-footer">
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

@@ -4,7 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ContactPage from "./components/ContactPage/contact-us";
 import Home from './components/HomePage/index';
 import Portfolio from "./components/Porfolio/portfolio";
-import About from "./components/About/about";
+import DeltaState from "./components/About/deltastate-property";
+import Services from "./components/Porfolio/services";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/about" element={<About />}/>
+        <Route path="/deltastate" element={<DeltaState />} />
+        <Route path="/page/:id" element={<Services />} />
       </Routes>
     </BrowserRouter>
   );

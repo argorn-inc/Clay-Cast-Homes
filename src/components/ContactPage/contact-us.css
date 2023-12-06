@@ -1,56 +1,54 @@
-.Contact-Page{
-    background-color: black;
-    height: fit-content;
+.Contact-Page {
+  background-color: black;
+  height: fit-content;
 }
-.get-in-touch{
-        padding-top: 280px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: Khand;
-        font-size: 50px;
-        font-weight: 500;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.25;
-        letter-spacing: normal;
-        text-align: left;
-        color: #fbfafa;
+.get-in-touch {
+  padding-top: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Khand;
+  font-size: 50px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fbfafa;
 }
-.map{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-       padding: 200px ;
-       flex-wrap: wrap;
-        
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+  flex-wrap: wrap;
 }
-.contact-at-contact{
-    color: #ffffff !important;
-    margin-top:-600px;
+.contact-at-contact {
+  color: #ffffff !important;
+  margin-top: -600px;
 }
-.contact-at-contact h2{
-    color: #fbfafa !important;
+.contact-at-contact h2 {
+  color: #fbfafa !important;
 }
-.contact-at-contact p{
-    color: #fbfafa !important;
-
+.contact-at-contact p {
+  color: #fbfafa !important;
 }
-.contact-footer{
-    margin-top: -140px;
+.contact-footer {
+  margin-top: -140px;
 }
 
 @media (max-width: 768px) {
-    .get-in-touch{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .map{
-        margin-left: -10px;
-    }
-        .Contact-Page{
-            flex-wrap: wrap;
-        }
+  .get-in-touch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .map {
+    margin-left: -10px;
+  }
+  .Contact-Page {
+    flex-wrap: wrap;
+  }
 }
