@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Data } from "./data";
-import DeltaState from "../About/deltastate-property"; 
+import DeltaState from "../About/deltastate-property";
 
 function Services() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { id } = useParams();
 
   const serviceId = parseInt(id, 10);
@@ -13,9 +17,7 @@ function Services() {
     return <div>Service not found</div>;
   }
 
-  return (
-    <DeltaState service={service}/>
-  );
+  return <DeltaState service={service} />;
 }
 
 export default Services;

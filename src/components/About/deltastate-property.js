@@ -1,5 +1,5 @@
-import React from "react";
-import "./deltastate-property.css"
+import React, { useEffect } from "react";
+import "./deltastate-property.css";
 import { useParams } from "react-router-dom";
 import Navbar from "../HomePage/navbar";
 import Contact from "../HomePage/Contact-Us";
@@ -13,7 +13,7 @@ import Frame2 from "./img/Frame2.png";
 import Frame3 from "./img/Frame3.png";
 import Frame4 from "./img/Frame4.png";
 import Rectangle1 from "./img/delta-rectangle1.png";
-import Rectangle2 from "./img/Rectangle2.png"
+import Rectangle2 from "./img/Rectangle2.png";
 import Rectangle3 from "./img/delta-rectangle3.png";
 import SchoolBackground from "./img/schoolBackground.png";
 import SchoolAbout from "./img/school-about.png";
@@ -46,6 +46,10 @@ import JosFrame3 from "./img/jos-frame3.png";
 import JosFrame4 from "./img/jos-frame1.png";
 
 function DeltaState() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { id } = useParams();
 
   const contentForId = {

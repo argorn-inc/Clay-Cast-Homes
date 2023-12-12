@@ -1,15 +1,21 @@
-import React from 'react';
-import './portfolio.css';
-import Navbar from '../HomePage/navbar';
-import { Data } from './data';
-import { PortfolioImage } from './portfolio-images';
-import Rectanglebg from './img/Rectangle-bg.png'
-import Contact from '../HomePage/Contact-Us';
-import Footer from '../HomePage/Footer';
-import { Link } from 'react-router-dom';
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
+import "./portfolio.css";
+import Navbar from "../HomePage/navbar";
+import { Data } from "./data";
+import { PortfolioImage } from "./portfolio-images";
+import Rectanglebg from "./img/Rectangle-bg.png";
+import Contact from "../HomePage/Contact-Us";
+import Footer from "../HomePage/Footer";
+import { Link } from "react-router-dom";
+import { LazyImage } from "../LazyImages";
 
 function Portfolio() {
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
   return (
     <div>
       <div>
@@ -24,6 +30,13 @@ function Portfolio() {
         <div className="portfolio-images-reused">
           {Data.map((dataContent) => (
             <Link to={`/page/${dataContent.id}`} key={dataContent}>
+              <LazyImage
+                key={dataContent.id}
+                src={dataContent.src}
+                alt={dataContent.alt}
+                placeholder={dataContent.placeholder}
+                // loadingComponent={<div className="text-blue-600 text-[70px]">Loading...</div>}
+              />
               <div key={dataContent.id} className="portfolio-cards">
                 <img src={dataContent.image} className="port-images" />
                 <h3 className="port-card">{dataContent.title}</h3>
